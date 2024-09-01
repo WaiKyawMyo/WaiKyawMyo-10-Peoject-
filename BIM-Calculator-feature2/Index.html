@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIM calculation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Condiner">
+        <h2>BIM Calcuator</h2>
+        <form id="bimform" action="">
+            <label for="Gender">Gender:</label> 
+            <select id="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Ender Your Age" required>
+            <label for="height">Height:</label>
+            <input type="number" id="heightFE" placeholder="Ender your Height Feet" required>
+            <input type="number" id="heightIC" placeholder="Ender your Height inches" required>
+            <label for="weight">Weight:</label>
+            <input type="number" placeholder="Ender Your Weight In KG" id="weight" required>
+            <input type="submit" value="Calculate BMI">
+        </form>
+      
+        <Div id="resultforBMI">
+
+        </Div>
+    </div>
+    <script src="feature.js"></script>
+</body>
+</html>
